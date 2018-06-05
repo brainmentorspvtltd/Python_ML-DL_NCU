@@ -1,0 +1,9 @@
+1. Import bs4 and urllib.request
+2. open url using urllib.request
+3. Make Object of BeautifulSoup
+4. Find out tag and class on that tag from where we have to fetch data
+5. Use tags = bs.find_all('tagName', class_='className')
+6. Now you'll get a list of tags based on that class.
+7. Using a for loop extract text from tags
+	- for data in tags:
+		print(data.text)
